@@ -1,0 +1,117 @@
+html, body {
+    background-color: #a9d7d1;
+    text-align: center;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    min-width: 320px;
+}
+body{
+    display: block;
+    margin: 8px;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+}
+div{
+    display: block;
+}
+#mainForm {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 75%;
+    border-radius: 5px;
+    padding-top: 20px;
+    max-width: 900px;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+form{
+    margin-top: 0em;
+    display: block;
+}
+ul{
+    list-style: none;
+}
+.dropDown{
+    width: 140px;
+    height: 35px;
+    padding: 5px;
+    margin-top: 15px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+.radio, .checkbox{
+    position: relative;
+    left: -43px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+}
+.userRating, input[type="checkbox"]{
+    float: left;
+    margin-left: 5px;
+}
+input[type="radio, i"]{
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+}
+.labelArea{
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    margin-top: 10px;
+    width: 40%;
+    padding: 5px;
+}
+.inputArea{
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+    vertical-align: middle;
+}
+.inputField{
+    width: 80%;
+    height: 20px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 2px;
+    border: 1px solid #c0c0c0;
+}
+
+input, textarea, select, button{
+    color: initial;
+    text-transform: none;
+    letter-spacing: normal;
+    text-rendering: auto;
+    text-shadow: none;
+    text-align: start;
+}
+textarea{
+    resize: vertical;
+    height: 50px;
+}
+label{
+    cursor: default;
+}
+#submit{
+    color: #ffffff;
+    background-color: #59ace0;
+    border-radius: 4px;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    border: 0px solid;
+    margin: 10px;
+    padding: 1px 6px 0px 20px;
+}
